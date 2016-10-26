@@ -1,0 +1,30 @@
+en:
+  static_pages:
+    title: "Home"
+    movie: "Movie Review"
+    intro: "Best place to review Movie!"
+    login: "LOG IN NOW!"
+    about: "ABOUT"
+  users:
+    edit: "Edit"
+    login: "Login"
+    logout: "Log out"
+    signup: "Sign up"
+    profile: "Profile"
+  sign_up: "Sign Up"
+  edit: "Edit"
+  save: "Save"
+  log_in: "Log In"
+  not_have_permission: "You dont have permission to do this"
+  flash:
+    confirm: "Are you sure"
+    fail: "Some thing went wrong"
+  genre:
+    deleted: "Genre have been deleted"
+    updated: "Genre have been updated"
+  new: "New"
+  genre:
+    success: "Create succesfully"
+  movie:
+    deleted: "Movie have been deleted"
+    created: "Movie have been created"
