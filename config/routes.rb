@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     root "static_pages#home"
     resources :genres
     resources :movies
+    resources :accounts
   end 
   resources :users
   resources :movies

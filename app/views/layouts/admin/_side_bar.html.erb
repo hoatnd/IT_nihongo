@@ -18,7 +18,10 @@
       </a>
       <ul id="user" class="panel-collapse collapse">
         <li>
-          <%= link_to t("navbar.user"), "#" %>
+          <%= link_to t(:new_account), new_admin_account_path %>
+        </li>
+        <li>
+          <%= link_to t("index"), admin_accounts_path %>
         </li>
       </ul>
     </li>

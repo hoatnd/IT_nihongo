@@ -1,0 +1,24 @@
+<table width="100%">
+  <tr>
+    <th width="20%"> UserName </th>
+    <th width="20%"> Email</th>
+    <th width="20%"> Phone</th>
+    <th width="20%"> Role</th>
+    <th width="20%"><%= t :action %></th>
+  </tr>
+  <% @accounts.each do |account| %>
+    <tr>
+      <td><%= link_to account.user_name, "#" %></td>
+      <td><%= account.email %></td>
+      <td><%= account.phone_number %></td>
+      <td><%= account.role %></td>
+      <td>
+        <%= link_to t("edit"), edit_admin_account_path(account), 
+          class: "btn btn-primary" %>
+        <%= link_to t("delete"), admin_account_path(account),
+          method: :delete, data: {confirm: t("flash.confirm")}, 
+          class: "btn btn-danger" %>
+      </td>
+    </tr>
+  <% end %>
+</table>
